@@ -50,6 +50,10 @@ internal class Program
         int firstDigit = (int)(gradePointAverage * 10) % 10;
         int secondDigit = (int)(gradePointAverage * 100) % 10;
 
+        Console.WriteLine($"Student: {studentName}\n");
+
+        Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
+
         Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
         Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
         Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
@@ -61,6 +65,8 @@ internal class Program
         string GPA = gradePointAverage.ToString("F2");
 
         Console.WriteLine($"Another way to do it: {GPA}");
+
+        Console.ReadLine();
 
     }
 }
