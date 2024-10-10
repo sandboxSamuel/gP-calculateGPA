@@ -12,6 +12,9 @@ internal class Program
         string course3Name = "Monstors of the Wild 101";
         string course4Name = "Nature Science I";
         string course5Name = "The Psychology of Battle 101";
+        string letterGradeA = "A";
+        string letterGradeB = "B";  
+        
 
         int course1Credit = 3;
         int course2Credit = 3;
@@ -52,19 +55,19 @@ internal class Program
 
         Console.WriteLine($"Student: {studentName}\n");
 
-        Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
+        Console.WriteLine("Course \t\t\t\t Letter Grade \t Value \t Credit Hours");
 
-        Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
-        Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
-        Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
-        Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
-        Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
+        Console.WriteLine($"{course1Name} \t\t\t {letterGradeB} \t\t {course1Grade} \t\t {course1Credit}");
+        Console.WriteLine($"{course2Name} \t\t\t {letterGradeB} \t\t {course2Grade} \t\t {course2Credit}");
+        Console.WriteLine($"{course3Name} \t {letterGradeA} \t\t {course3Grade} \t\t {course3Credit}");
+        Console.WriteLine($"{course4Name} \t\t {letterGradeA} \t\t {course4Grade} \t\t {course4Credit}");
+        Console.WriteLine($"{course5Name} \t {letterGradeB} \t\t {course5Grade} \t\t {course5Credit}\n");
 
-        Console.WriteLine($"Final Grade Point Average: {leadingDigit}.{firstDigit}{secondDigit}");
+        Console.WriteLine($"Final Grade Point Average:\t {leadingDigit}.{firstDigit}{secondDigit}");
 
         string GPA = gradePointAverage.ToString("F2");
 
-        Console.WriteLine($"Another way to do it: {GPA}");
+        Console.WriteLine($"Another way to do it:\t\t {GPA}");
 
         Console.ReadLine();
 
