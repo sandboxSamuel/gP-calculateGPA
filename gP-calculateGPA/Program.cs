@@ -22,8 +22,8 @@ int course3Grade = gradeB;
 int course4Grade = gradeB;
 int course5Grade = gradeA;
 
-Console.WriteLine($"{course1Name} {course1Grade}");
-Console.WriteLine($"{course2Name} {course2Grade}");
-Console.WriteLine($"{course3Name} {course3Grade}");
-Console.WriteLine($"{course4Name} {course4Grade}");
-Console.WriteLine($"{course5Name} {course5Grade}");
+Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
+Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
+Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
+Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
+Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
